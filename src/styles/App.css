@@ -1,0 +1,54 @@
+.App {
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #012d5e;
+  color: #ffffff;
+  height: 100%;
+}
+
+.window {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: auto;
+  background-color: #012d5e;
+}
+
+h1{
+  text-align: center;
+  color: #ffc107;
+  padding: 1%
+}
+
+html,body {
+  height:100%;
+}
+
+.topBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.addPatientButton{
+  margin-left: 1%;
+  background-color: #254870;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  border:none;
+  color: #012d5e;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+input{
+  margin-top: 1vh;
+}
+
+select{
+  margin-top: 1vh;
+}

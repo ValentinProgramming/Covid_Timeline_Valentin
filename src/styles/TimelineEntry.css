@@ -1,0 +1,38 @@
+.timelineEntry{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: space-between;
+    font-weight: normal;
+    align-items: baseline;
+}
+
+.period{
+    display: flex;
+    color: #ffc107;
+}
+
+.detail_locationType{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.detail{
+    display: flex;
+    color: #ffffff;
+}
+
+.locationType{
+    display: flex;
+    color: #5882E3;
+}
+
+.deleteTimeEntry{
+    background-color: #254870;
+    border: none;
+    color: #ffffff;
+    font-size: 2vh;
+    cursor: pointer;
+    font-weight: bolder;
+}

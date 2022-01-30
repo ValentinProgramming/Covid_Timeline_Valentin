@@ -1,0 +1,55 @@
+.patientInformation_deletePatientButton {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.patientInformation {
+    display: flex;
+    flex-direction: row;
+    border: 1%;
+    border-color: #254870;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+
+.deletePatientButton{
+    background-color: #dc3545;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    height: 60%;
+    cursor: pointer;
+}
+
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    margin-right: 5%;
+
+}
+
+.age {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.occupation {
+    display: flex;
+    flex-direction: column;
+    flex: 10;
+    margin-left: 5%;
+}
+
+h2 {
+    color: #ffc107;
+}

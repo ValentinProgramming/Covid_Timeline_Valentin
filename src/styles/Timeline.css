@@ -1,0 +1,47 @@
+.timeline{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-width: 1%;
+    border-color: #ffc107;
+    color: #ffc107;
+    padding: 5%;
+    height: 100%;
+}
+
+.timelineEntryDay{
+    display: flex;
+    flex-direction: column;
+    background-color: #254870;
+    border-radius: 5px;
+    margin: 2%;
+    color: #ffc107;
+    padding: 3%;
+    font-weight: bolder;
+}
+
+.visitedPlaces{
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff; 
+}
+
+.visitedPlace{
+    display: flex; 
+    padding: 4%;
+}
+
+.patientInformationDisplay{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc107;
+    color: #012d5e;
+    border-radius: 5vh;
+    width: 50%;
+    align-self: center;
+    margin: 2%;
+    margin-bottom: 10%;
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+.patient{
+    display: flex;
+    flex-direction: column; 
+}
+
+.patientInformation{
+    display: flex;
+}
+
+.patientInformationDisplay{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc107;
+    color: #012d5e;
+    border-radius: 5vh;
+    width: 20%;
+    align-self: center;
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
+}
+
+.timelinePart{
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline{
+    display: flex;
+    flex: 7;
+}
+
+.timelineEntryCreation{
+    display: flex;
+    flex: 3;
+}
+

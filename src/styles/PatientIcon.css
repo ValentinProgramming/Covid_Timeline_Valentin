@@ -1,0 +1,12 @@
+.patientIcon{
+    border: solid;
+    border-width: 1%;
+    border-color: #254870;
+    border-radius: 5%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    cursor: pointer;
+  }

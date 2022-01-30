@@ -1,0 +1,66 @@
+.timelineEntryCreation{
+    margin-left: 2%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    border: 1%;
+    border-color: #254870;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.periodCreation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timeFromCreation{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.timeToCreation{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.detailCreation{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.detailInput{
+    height: 15vh;
+}
+
+.locationType_location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.locationTypeCreation{
+    display: flex;
+    flex-direction: column;
+}
+
+.locationCreation{
+    display: flex;
+    flex-direction: column;
+}
+
+.entryButton{
+    background-color: #ffc107;
+    color: #012d5e;
+    border-style: hidden;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 5%;
+    cursor: pointer;
+}
